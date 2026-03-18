@@ -1,6 +1,6 @@
 # 🍕 ContosoPizza Razor Pages
 
-Uma aplicação web completa desenvolvida com **ASP.NET Core Razor Pages**, projetada para gerenciar o catálogo e pedidos de uma pizzaria. Este projeto foi realizado através da documentação do **Microsoft Learn** para aprofundamento em Server-Side Rendering (SSR) e persistência de dados.
+Este é um projeto de estudo prático desenvolvido para explorar os fundamentos do **ASP.NET Core Razor Pages**. Criado como parte da trilha de aprendizado do **Microsoft Learn**, o repositório demonstra a construção de uma interface web com renderização no servidor e persistência de dados.
 
 ---
 
@@ -13,28 +13,28 @@ Uma aplicação web completa desenvolvida com **ASP.NET Core Razor Pages**, proj
 
 ---
 
-## 📌 Funcionalidades
-- [x] **Gestão de Inventário:** CRUD completo (Criar, Ler, Atualizar e Deletar) de pizzas.
-- [x] **Interface Dinâmica:** Renderização de componentes via Razor Pages.
-- [x] **Persistência:** Integração com banco de dados para salvar informações entre sessões.
+## 🎯 Objetivo de Estudo
+O foco principal deste projeto foi fixar conceitos básicos de desenvolvimento Web com .NET, incluindo:
+* Estrutura de pastas e roteamento do **Razor Pages**.
+* Manipulação de formulários e validação de modelos.
+* Implementação de operações de **CRUD** (Create, Read, Update, Delete).
 
-## 🛠️ Tecnologias e Conceitos
-* **ASP.NET Core Razor Pages:** Arquitetura focada em páginas para facilitar o desenvolvimento web.
-* **Entity Framework Core:** Utilizado para a abstração da camada de banco de dados.
-* **SQLite:** Banco de dados leve e autocontido para desenvolvimento local.
-* **Bootstrap:** Para estilização e responsividade da interface.
+## 📌 Funcionalidades Implementadas
+- [x] **Listagem:** Visualização de pizzas cadastradas.
+- [x] **Cadastro e Remoção:** Adição de novos itens e exclusão via interface.
+- [x] **Persistência Local:** Uso de banco de dados para manter os dados durante a execução.
 
-## 📂 Estrutura Principal
-* `Pages/Pizzas/`: Contém a lógica de negócio e as views para o gerenciamento das pizzas.
-* `Models/`: Definição das entidades (Pizza, etc).
-* `Services/`: Camada de serviço para isolar a lógica de acesso a dados.
+## 🛠️ Tecnologias Utilizadas
+* **Framework:** ASP.NET Core Razor Pages.
+* **ORM:** Entity Framework Core (In-memory/SQLite para testes).
+* **UI:** Bootstrap para estilização básica.
 
-## 🚀 Como Começar
+## 🚀 Como Executar
 
 ### Pré-requisitos
 * [.NET SDK](https://dotnet.microsoft.com/download) instalado (Versão 7.0 ou superior).
 
-### Instalação e Execução
+### Passos para rodar
 1. **Clone o repositório:**
    ```bash
    git clone [https://github.com/jamerson-mt/ContosoPizzaRazorPages.git](https://github.com/jamerson-mt/ContosoPizzaRazorPages.git)

@@ -1,57 +1,41 @@
-# ContosoPizza Razor Pages
+# 🍕 ContosoPizza Razor Pages
 
-Esta é uma aplicação de exemplo criada com **ASP.NET Core** usando **Razor Pages**, permitindo gerenciar uma pizzaria com operações de CRUD para pizzas e gerenciamento de pedidos de clientes.
-
-## Índice
-- [Introdução](#introdução)
-- [Funcionalidades](#funcionalidades)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Começar](#como-começar)
-- [Estrutura das Páginas](#estrutura-das-páginas)
-- [Contribuição](#contribuição)
-
-## Introdução
-A aplicação **ContosoPizza** foi criada como parte do aprendizado da plataforma **ASP.NET Core** pela docuemntação fornecida pelo **Microsoft Learn** e demonstra funcionalidades básicas de uma aplicação web, permitindo criação, leitura, atualização e exclusão (CRUD) de pizzas.
-
-## Funcionalidades
-- Criar, visualizar, atualizar e deletar pizzas.
-- Listar pizzas disponíveis.
-
-## Tecnologias Utilizadas
-- **ASP.NET Core** - Framework para o desenvolvimento da aplicação.
-- **Razor Pages** - Para a construção da interface do usuário.
-
-## Como Começar
-
-### Pré-requisitos
-- [.NET SDK 7.0.0](https://dotnet.microsoft.com/download) instalado.
-- Um editor de código, como o [Visual Studio Code](https://code.visualstudio.microsoft.com/) ou o [Visual Studio](https://visualstudio.microsoft.com/).
-
-### Instalação
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/jamerson-mt/ContosoPizzaRazorPages.git
-    cd ContosoPizzaRazorPages
-    ```
-2. Instale as dependências e compile o projeto:
-    ```bash
-    dotnet restore
-    dotnet build
-    ```
-3. Rode a aplicação localmente:
-    ```bash
-    dotnet run
-    ```
-   A aplicação estará disponível em: `https://localhost:5001`.
-
-### Armazenamento de Dados
-Este projeto utiliza um arquivo SQLite para armazenar dados durante a execução. As alterações nos dados serão reiniciadas sempre que a aplicação for parada ou reiniciada.
-
-## Estrutura das Páginas
-- **/Pages/Pizzas/Index.cshtml** - Lista todas as pizzaz, permite criar e remover as existentes.
-
-
-## Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+Uma aplicação web completa desenvolvida com **ASP.NET Core Razor Pages**, projetada para gerenciar o catálogo e pedidos de uma pizzaria. Este projeto foi realizado através da documentação do **Microsoft Learn** para aprofundamento em Server-Side Rendering (SSR) e persistência de dados.
 
 ---
+
+<div align="center">
+  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET">
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/Razor%20Pages-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="Razor Pages">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+</div>
+
+---
+
+## 📌 Funcionalidades
+- [x] **Gestão de Inventário:** CRUD completo (Criar, Ler, Atualizar e Deletar) de pizzas.
+- [x] **Interface Dinâmica:** Renderização de componentes via Razor Pages.
+- [x] **Persistência:** Integração com banco de dados para salvar informações entre sessões.
+
+## 🛠️ Tecnologias e Conceitos
+* **ASP.NET Core Razor Pages:** Arquitetura focada em páginas para facilitar o desenvolvimento web.
+* **Entity Framework Core:** Utilizado para a abstração da camada de banco de dados.
+* **SQLite:** Banco de dados leve e autocontido para desenvolvimento local.
+* **Bootstrap:** Para estilização e responsividade da interface.
+
+## 📂 Estrutura Principal
+* `Pages/Pizzas/`: Contém a lógica de negócio e as views para o gerenciamento das pizzas.
+* `Models/`: Definição das entidades (Pizza, etc).
+* `Services/`: Camada de serviço para isolar a lógica de acesso a dados.
+
+## 🚀 Como Começar
+
+### Pré-requisitos
+* [.NET SDK](https://dotnet.microsoft.com/download) instalado (Versão 7.0 ou superior).
+
+### Instalação e Execução
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/jamerson-mt/ContosoPizzaRazorPages.git](https://github.com/jamerson-mt/ContosoPizzaRazorPages.git)
+   cd ContosoPizzaRazorPages
